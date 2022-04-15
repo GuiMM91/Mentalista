@@ -1,4 +1,4 @@
-# Mentalista 📝
+# Mentalista 🔮
 
 
 <p>Mentalista é um jogo para adivinhar um número de 0 a 10 feito em HTML, CSS e JavaScript.</p>
