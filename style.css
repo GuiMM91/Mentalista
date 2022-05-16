@@ -53,8 +53,8 @@ input {
   margin-top: 1rem;
 }
 
-input:focus{
-outline: none;
+input:focus {
+  outline: none;
 }
 
 button {
