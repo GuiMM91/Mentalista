@@ -1,62 +1,82 @@
-body {
-    font-family: "Roboto Mono", monospace;
-    min-height: 600px;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+:root {
+  min-height: 600px;
+  background-color: #000000;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  --main-color: rgba(117, 4, 247, 0.856);
+  --second-color: white;
+  --third-color: rgb(13, 235, 205);
+  font-size: 16px;
+  font-family: "Macondo", cursive;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 15vh;
+  background-color: var(--main-color);
+}
+
+.container-two {
+  text-align: center;
+  padding: 0px;
+  background-color: var(--third-color);
+}
+
+#img {
+  width: 100%;
+}
+
+.page-title {
+  color: var(--second-color);
+  margin: 0 0 5px;
+  font-size: 5rem;
+  text-shadow: 0rem 0rem 2rem var(--third-color);
+}
+
+.page-subtitle {
+  color: var(--second-color);
+  margin-top: 1rem;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
   }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 16px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  @media (max-height: 500px) {
-    body {
-      min-height: 800px;
-    }
-  }
-  
-  input {
-    margin: 4px;
-    padding: 6px;
-    border-radius: 5px;
-  }
-  
-  button {
-    margin-top: 12px;
-    padding: 4px 8px;
-    border-radius: 10px;
-    background: #ffffff;
-  }
-  
-  .resultado {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 16px;
-  }
-  
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+input:focus{
+outline: none;
+}
+
+button {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  font-family: "Macondo", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color: var(--main-color);
+  color: var(--second-color);
+}
+
+.resultado {
+  color: var(--main-color);
+  text-align: center;
+  margin-top: 16px;
+  padding-bottom: 1rem;
+}
