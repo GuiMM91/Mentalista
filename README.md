@@ -5,7 +5,7 @@
 
 
 
-<p>Link para a aplicação: https://guimm91.github.io/mentalista/</p>
+<p>Link para a aplicação: https://guimm91.github.io/Mentalista/</p>
 
 
 <img src="assets/thumb.png" alt="mentalista"/>
